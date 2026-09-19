@@ -1,36 +1,179 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🧠 MindForge AI
+From Voice → Thoughts → Mind Map → Action
+Turn scattered thoughts into a structured plan and help users actually execute it.
 
-## Getting Started
+🌐 Live Demo: https://mindforge-ai-f0qf.onrender.com
 
-First, run the development server:
+MindForge AI is an AI-powered productivity companion that transforms natural voice or text input into structured goals, mind maps, actionable tasks, priorities, deadlines, and execution plans.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Unlike traditional productivity apps that mainly focus on reminders and task storage, MindForge focuses on helping users move from thinking → planning → execution → recovery.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🚨 Problem
+People often know what they want to achieve, but don't know how to break their idea into manageable tasks.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+For example:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+"I need to prepare for my DBMS exam, complete my project report, and submit my assignment by Friday."
 
-## Learn More
+Instead of manually creating and organizing multiple tasks, MindForge AI understands the input and creates a structured execution plan.
 
-To learn more about Next.js, take a look at the following resources:
+💡 Solution
+MindForge AI follows this workflow:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Voice / Text Input
+        ↓
+AI Understanding
+        ↓
+Goal & Task Extraction
+        ↓
+Mind Map
+        ↓
+Action Plan
+        ↓
+Prioritized Tasks
+        ↓
+Execution & Progress
+        ↓
+Rescue / Re-planning
+✨ Key Features
+🎙️ Voice & Text Input
+Users can describe their goals naturally using voice or text.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🧠 AI-Powered Mind Maps
+Converts complex ideas into a visual structure of goals, tasks, and activities.
 
-## Deploy on Vercel
+✅ Automatic Action Planning
+Generates actionable tasks with priorities, deadlines, progress, and completion status.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📅 Task & Project Management
+Manage tasks, projects, calendars, action plans, progress, and history in one place.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🚨 Rescue Mode
+When users fall behind, MindForge helps reorganize the remaining work and identify important next actions.
+
+🤖 AI-Assisted Planning
+AI supports goal decomposition, task generation, prioritization, next-task suggestions, and re-planning.
+
+📄 PDF Export
+Generated planning information can be exported as PDF.
+
+🔥 What Makes MindForge Different?
+Traditional productivity apps generally follow:
+
+Create Task → Reminder → Complete Task
+MindForge focuses on:
+
+Thought
+   ↓
+AI Understanding
+   ↓
+Structure
+   ↓
+Action
+   ↓
+Execution
+   ↓
+Recovery
+The goal is to bridge the gap between "I have an idea" and "I know what to do next."
+
+🛠️ Technology Stack
+Category	Technology
+Frontend	Next.js, React, TypeScript
+Styling	CSS
+Backend	API Routes / Application Backend
+AI	Generative AI
+Database	Database-backed Persistence
+Authentication	NextAuth
+Visualization	Mind Map / Flowchart
+Export	PDF
+Version Control	Git & GitHub
+Deployment	Render
+📂 Main Modules
+Action Plan
+Calendar
+Dashboard
+History
+Mind Map
+Profile
+Progress
+Rescue Mode
+Tasks
+Authentication
+🌐 Live Demo
+Try MindForge AI online:
+
+https://mindforge-ai-f0qf.onrender.com
+
+👥 Team & Responsibilities
+1. Ambika Shelke — Team Leader / Frontend & Integration
+Frontend Development
+React / Modern UI Development
+Responsive Web Design
+UI/UX Implementation
+API Integration
+Dashboard Development
+State Management
+Task & Action Plan Interfaces
+Mind Map & Data Visualization
+Frontend Testing
+2. Om Watane — Lead Developer / Team Member
+Full-Stack Development
+System Architecture
+AI/ML Integration
+Backend Development & API Design
+Database Architecture
+Authentication & Security
+AI Decision Logic & Rescue Mode
+Project Integration & Deployment
+Git/GitHub & Team Coordination
+3. Tejaswani — Team Member / Backend & Testing
+Backend Development
+REST API Development
+Database Management
+API Integration
+Authentication & Authorization Basics
+AI API Integration
+Backend Validation & Error Handling
+Testing & Debugging
+Git/GitHub
+Deployment & Environment Configuration
+🗺️ Future Scope
+Smarter goal decomposition
+Improved task prioritization
+Interactive mind maps
+Conversational AI assistant
+Google Calendar integration
+Notion / Trello integrations
+Adaptive s
+About
+MindForge AI — An AI-powered deadline survival engine that plans, prioritizes, predicts deadline risks, dynamically replans tasks, and guides users on what to do and what to skip to maximize the chance of finishing on time.
+
+Resources
+Readme
+Activity
+Stars
+0 stars
+Watchers
+0 watching
+Forks
+1 fork
+Report repository
+Releases
+No releases published
+Packages
+No packages published
+Contributors
+2
+ (2)
+@Omwatane17
+Omwatane17Om Watane
+@Ambika-Shelke
+Ambika-ShelkeAmbika Shelke
+Languages
+TypeScript
+89%
+CSS
+10.2%
+Other
+0.8%
+Footer
